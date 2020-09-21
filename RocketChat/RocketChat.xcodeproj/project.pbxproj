@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079960DA2517B3A400F239A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960D92517B3A400F239A5 /* User.swift */; };
+		079960DD2517B57700F239A5 /* UsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960DC2517B57700F239A5 /* UsersList.swift */; };
+		079960E02517B64600F239A5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960DF2517B64600F239A5 /* UserService.swift */; };
+		079960E32517BA9B00F239A5 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960E22517BA9B00F239A5 /* AppManager.swift */; };
+		079960E92517BAF800F239A5 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960E82517BAF800F239A5 /* UsersListViewController.swift */; };
+		079960EC2517BC0F00F239A5 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960EB2517BC0F00F239A5 /* UsersListView.swift */; };
+		079960EF2517BE1D00F239A5 /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960EE2517BE1D00F239A5 /* UsersListViewModel.swift */; };
+		079960F22517C6E100F239A5 /* UsersListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960F12517C6E100F239A5 /* UsersListViewCell.swift */; };
+		079960FB2517D2B200F239A5 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079960FA2517D2B200F239A5 /* UserDetailViewController.swift */; };
+		07DDA4A82518BBB700DF57EF /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDA4A72518BBB700DF57EF /* RealmService.swift */; };
+		07DDA4AB2518C3BB00DF57EF /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDA4AA2518C3BB00DF57EF /* UserDetailView.swift */; };
+		07DDA4AE2518CB9700DF57EF /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDA4AD2518CB9700DF57EF /* UserDetailViewModel.swift */; };
+		07DDA4B22518D04C00DF57EF /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDA4B12518D04C00DF57EF /* UIViewController+Ext.swift */; };
+		07ED4A0125172FB8004C9B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED4A0025172FB8004C9B17 /* AppDelegate.swift */; };
+		07ED4A0325172FB8004C9B17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED4A0225172FB8004C9B17 /* SceneDelegate.swift */; };
+		07ED4A0A25172FB9004C9B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ED4A0925172FB9004C9B17 /* Assets.xcassets */; };
+		07ED4A0D25172FB9004C9B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ED4A0B25172FB9004C9B17 /* LaunchScreen.storyboard */; };
+		07ED4A2025173197004C9B17 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED4A1F25173197004C9B17 /* Observer.swift */; };
+		ED8D252CC4BBC266FE2021F0 /* Pods_RocketChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98267BD19FB1CA1FCF0A762 /* Pods_RocketChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079960D92517B3A400F239A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		079960DC2517B57700F239A5 /* UsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersList.swift; sourceTree = "<group>"; };
+		079960DF2517B64600F239A5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		079960E22517BA9B00F239A5 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		079960E82517BAF800F239A5 /* UsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		079960EB2517BC0F00F239A5 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
+		079960EE2517BE1D00F239A5 /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		079960F12517C6E100F239A5 /* UsersListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewCell.swift; sourceTree = "<group>"; };
+		079960FA2517D2B200F239A5 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		07DDA4A72518BBB700DF57EF /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		07DDA4AA2518C3BB00DF57EF /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		07DDA4AD2518CB9700DF57EF /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		07DDA4B12518D04C00DF57EF /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		07ED49FD25172FB8004C9B17 /* RocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ED4A0025172FB8004C9B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07ED4A0225172FB8004C9B17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07ED4A0925172FB9004C9B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07ED4A0C25172FB9004C9B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07ED4A0E25172FB9004C9B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ED4A1F25173197004C9B17 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		68ED7E2AD1211654464480A1 /* Pods-RocketChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketChat.debug.xcconfig"; path = "Target Support Files/Pods-RocketChat/Pods-RocketChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D0A4A42CEC0590F307F34680 /* Pods-RocketChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketChat.release.xcconfig"; path = "Target Support Files/Pods-RocketChat/Pods-RocketChat.release.xcconfig"; sourceTree = "<group>"; };
+		F98267BD19FB1CA1FCF0A762 /* Pods_RocketChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07ED49FA25172FB8004C9B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D252CC4BBC266FE2021F0 /* Pods_RocketChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0404ABFB616590138F59C158 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F98267BD19FB1CA1FCF0A762 /* Pods_RocketChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		079960E72517BACF00F239A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				079960EE2517BE1D00F239A5 /* UsersListViewModel.swift */,
+				07DDA4AD2518CB9700DF57EF /* UserDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07DDA4B02518D02500DF57EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				07DDA4B12518D04C00DF57EF /* UIViewController+Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		07ED49F425172FB8004C9B17 = {
+			isa = PBXGroup;
+			children = (
+				07ED49FF25172FB8004C9B17 /* RocketChat */,
+				07ED49FE25172FB8004C9B17 /* Products */,
+				2CB214CCF4C067C15CBEFEF3 /* Pods */,
+				0404ABFB616590138F59C158 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07ED49FE25172FB8004C9B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07ED49FD25172FB8004C9B17 /* RocketChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07ED49FF25172FB8004C9B17 /* RocketChat */ = {
+			isa = PBXGroup;
+			children = (
+				07ED4A1C25173121004C9B17 /* App */,
+				07ED4A1525172FDF004C9B17 /* Core */,
+				07ED4A1A25173048004C9B17 /* Resources */,
+			);
+			path = RocketChat;
+			sourceTree = "<group>";
+		};
+		07ED4A1525172FDF004C9B17 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				07DDA4B02518D02500DF57EF /* Helpers */,
+				07ED4A232517353F004C9B17 /* Delegate */,
+				07ED4A1F25173197004C9B17 /* Observer.swift */,
+				079960E22517BA9B00F239A5 /* AppManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		07ED4A172517302C004C9B17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07ED4A1825173038004C9B17 /* UsersList */,
+				07ED4A192517303F004C9B17 /* UserDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07ED4A1825173038004C9B17 /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				079960E82517BAF800F239A5 /* UsersListViewController.swift */,
+				079960EB2517BC0F00F239A5 /* UsersListView.swift */,
+				079960F12517C6E100F239A5 /* UsersListViewCell.swift */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		07ED4A192517303F004C9B17 /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				079960FA2517D2B200F239A5 /* UserDetailViewController.swift */,
+				07DDA4AA2518C3BB00DF57EF /* UserDetailView.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		07ED4A1A25173048004C9B17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07ED4A0925172FB9004C9B17 /* Assets.xcassets */,
+				07ED4A0B25172FB9004C9B17 /* LaunchScreen.storyboard */,
+				07ED4A0E25172FB9004C9B17 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07ED4A1C25173121004C9B17 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07ED4A1D25173127004C9B17 /* Services */,
+				07ED4A1E25173136004C9B17 /* Model */,
+				07ED4A172517302C004C9B17 /* View */,
+				079960E72517BACF00F239A5 /* ViewModel */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07ED4A1D25173127004C9B17 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				079960DF2517B64600F239A5 /* UserService.swift */,
+				07DDA4A72518BBB700DF57EF /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07ED4A1E25173136004C9B17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				079960D92517B3A400F239A5 /* User.swift */,
+				079960DC2517B57700F239A5 /* UsersList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07ED4A232517353F004C9B17 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				07ED4A0025172FB8004C9B17 /* AppDelegate.swift */,
+				07ED4A0225172FB8004C9B17 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2CB214CCF4C067C15CBEFEF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68ED7E2AD1211654464480A1 /* Pods-RocketChat.debug.xcconfig */,
+				D0A4A42CEC0590F307F34680 /* Pods-RocketChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07ED49FC25172FB8004C9B17 /* RocketChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ED4A1125172FB9004C9B17 /* Build configuration list for PBXNativeTarget "RocketChat" */;
+			buildPhases = (
+				4991CD08101CCDD809F5DB4D /* [CP] Check Pods Manifest.lock */,
+				07ED49F925172FB8004C9B17 /* Sources */,
+				07ED49FA25172FB8004C9B17 /* Frameworks */,
+				07ED49FB25172FB8004C9B17 /* Resources */,
+				1C164FC952BA4AE23052F8B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketChat;
+			productName = RocketChat;
+			productReference = 07ED49FD25172FB8004C9B17 /* RocketChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07ED49F525172FB8004C9B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					07ED49FC25172FB8004C9B17 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 07ED49F825172FB8004C9B17 /* Build configuration list for PBXProject "RocketChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07ED49F425172FB8004C9B17;
+			productRefGroup = 07ED49FE25172FB8004C9B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07ED49FC25172FB8004C9B17 /* RocketChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07ED49FB25172FB8004C9B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ED4A0D25172FB9004C9B17 /* LaunchScreen.storyboard in Resources */,
+				07ED4A0A25172FB9004C9B17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C164FC952BA4AE23052F8B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketChat/Pods-RocketChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketChat/Pods-RocketChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketChat/Pods-RocketChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4991CD08101CCDD809F5DB4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocketChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07ED49F925172FB8004C9B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079960E02517B64600F239A5 /* UserService.swift in Sources */,
+				079960EC2517BC0F00F239A5 /* UsersListView.swift in Sources */,
+				079960FB2517D2B200F239A5 /* UserDetailViewController.swift in Sources */,
+				07ED4A2025173197004C9B17 /* Observer.swift in Sources */,
+				07DDA4AB2518C3BB00DF57EF /* UserDetailView.swift in Sources */,
+				079960EF2517BE1D00F239A5 /* UsersListViewModel.swift in Sources */,
+				079960DD2517B57700F239A5 /* UsersList.swift in Sources */,
+				07ED4A0125172FB8004C9B17 /* AppDelegate.swift in Sources */,
+				079960DA2517B3A400F239A5 /* User.swift in Sources */,
+				079960F22517C6E100F239A5 /* UsersListViewCell.swift in Sources */,
+				07DDA4A82518BBB700DF57EF /* RealmService.swift in Sources */,
+				079960E92517BAF800F239A5 /* UsersListViewController.swift in Sources */,
+				07DDA4AE2518CB9700DF57EF /* UserDetailViewModel.swift in Sources */,
+				07ED4A0325172FB8004C9B17 /* SceneDelegate.swift in Sources */,
+				07DDA4B22518D04C00DF57EF /* UIViewController+Ext.swift in Sources */,
+				079960E32517BA9B00F239A5 /* AppManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07ED4A0B25172FB9004C9B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07ED4A0C25172FB9004C9B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07ED4A0F25172FB9004C9B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07ED4A1025172FB9004C9B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07ED4A1225172FB9004C9B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68ED7E2AD1211654464480A1 /* Pods-RocketChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GGD352K79;
+				INFOPLIST_FILE = RocketChat/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.martiushin.RocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07ED4A1325172FB9004C9B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A4A42CEC0590F307F34680 /* Pods-RocketChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GGD352K79;
+				INFOPLIST_FILE = RocketChat/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.martiushin.RocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07ED49F825172FB8004C9B17 /* Build configuration list for PBXProject "RocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ED4A0F25172FB9004C9B17 /* Debug */,
+				07ED4A1025172FB9004C9B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07ED4A1125172FB9004C9B17 /* Build configuration list for PBXNativeTarget "RocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ED4A1225172FB9004C9B17 /* Debug */,
+				07ED4A1325172FB9004C9B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07ED49F525172FB8004C9B17 /* Project object */;
+}
